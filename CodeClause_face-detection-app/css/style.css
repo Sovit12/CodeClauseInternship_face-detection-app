@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background: #000000;
+  width: calc(100% - 33px);
+}
+
+canvas {
+  position: absolute;
+}
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.result-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.result-container > div {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  margin: 5px 0;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 10px;
+  width: 20%;
+  text-align: center;
+}
+#age {
+  background: #DA70D6;
+}
+#emotion {
+  background: #9932CC;
+}
+#gender {
+  background: #BA55D3;
+}
+video {
+  width: 100%;
+}
+header {
+  /* background: #42a5f5; */
+  /* background: linear-gradient(to right, #cc99ff 0%, #ff99cc 100%); */
+  background: linear-gradient(to right, #cc33ff 0%, #ff99cc 100%);
+  color: white;
+  width: 100%;
+  font-size: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
